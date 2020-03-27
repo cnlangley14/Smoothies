@@ -1,0 +1,24 @@
+<html>
+    {% extends 'bootstrap/base.html' %}
+    <head>
+        <title>Chereese's Smoothies</title>
+    </head>
+    {% block navbar %}
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/home">Chereese's Health & Fitness</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="/smoothies">Smoothies</a></li>
+                    <li><a href="/workouts">Workouts</a></li>
+                    <li><a href="/proteinshakes">Protein Shakes</a></li>
+                </ul>
+            </div>
+        </nav>
+    {% endblock %}
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+</html>
+    
