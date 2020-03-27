@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Chereese's Smoothies</title>
+    </head>
+    <body>
+        Hello, welcome to the delicious smoothie cookbook. Enjoy!
+        <table>
+            {%for x in smoothies%}
+            <tr>
+                <td>{{x.name}}</td>    
+            <tr>
+            {%endfor%}
+        </table>
+    </body>
+</html>
+    
